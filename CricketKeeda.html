@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricketKeeda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="">
+<style>
+    /* CSS RESET  */
+    body {
+        font-family: 'Lilita One', cursive;
+        color: #1c0e4c;
+        margin: 0;
+        padding: 0;
+        background: url('https://wallpapercave.com/wp/wp4542543.jpg');
+        background-size: 1480px;
+        /* background-repeat: no-repeat */
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 49px;
+        top: 25px;
+    }
+
+    .left img {
+        width: 88px;
+    }
+
+    .left div {
+        text-align: center;
+        color: rgb(34 34 33);
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .mid {
+        display: block;
+        width: 39%;
+        margin: 24px auto;
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 34px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .navbar li a {
+        color: rgb(221, 255, 3);
+        text-decoration: none;
+        padding: 34px 24px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(253, 255, 255);
+    }
+
+    .btn {
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0px 10px;
+        background-color: burlywood;
+        color: purple;
+        padding: 9px 31px;
+        border: 4px solid rgb(30, 10, 61);
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: yellow;
+        background-color: purple;
+        border-color: yellow;
+    }
+
+    .container {
+        text-align: center;
+        margin: 68px;
+        padding: 114px;
+        width: 65%;
+        border-radius: 46px;
+    }
+    .container button{
+        display: block;
+        width: 20%;
+        margin: auto;
+        border-radius: 30px;
+    }
+    .form-group input {
+        font-family: 'Lilita One', cursive;
+        text-align: center;
+        display: block;
+        padding: 13px;
+        margin: 12px auto;
+        width: 247px;
+        border-radius: 30px;
+        border: 4px solid rgb(0, 0, 0);
+    }
+    .form-group input:hover{
+        font-size: 15px;
+        color: purple;
+        background-color: rgb(105, 236, 132);
+        border: 4px solid rgb(250, 62, 62);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://i.pinimg.com/736x/0f/a7/fe/0fa7fe5b80843d53decad4408ff70da1.jpg" alt="">
+            <div>CricketKeeda</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Matches</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </div>
+        <!-- right box for button  -->
+        <div class="right">
+            <button class="btn">Login</button>
+            <button class="btn">Plus User</button>
+        </div>
+    </header>
+    <div class="container">
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Mobile No">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Password">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
